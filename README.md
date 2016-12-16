@@ -4,13 +4,13 @@ Integrating ipyparallel with Cloud Kotta
 Start engines locally:
 
 1. Start the ipcluster with
-python start_engines_local.py <number of engines>
+python start_engines_local.py <number_of_engines>
 
 2. Start jupyter-notebook with
 jupyter notebook --no-browser --port=8889&
 
 3. In local machine, execute command:
-ssh -N -f -L localhost:8888:localhost:8889 aswathy@bastion.turing.net
+ssh -N -f -L localhost:8888:localhost:8889 username@bastion.turing.net
 
 4. Open localhost:8888/tree in browser
 
