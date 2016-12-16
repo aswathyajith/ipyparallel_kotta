@@ -33,3 +33,4 @@ python engine.py <path_to_ipcontroller-engine.json> <walltime_in_mins> <Queue> <
 5. In local machine, execute command:
 ssh -N -f -L localhost:8888:localhost:8889 username@bastion.turing.net
 
+6. Open localhost:8888/tree in browser
